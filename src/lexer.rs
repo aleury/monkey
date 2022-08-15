@@ -69,6 +69,7 @@ mod test {
             Token::RBrace,
             Token::Comma,
             Token::Semicolon,
+            Token::EOF,
         ];
 
         for token in expected_tokens {
